@@ -1,0 +1,47 @@
+body{
+    background-color: #000000;
+    font-family: Consolas, monospace;
+    margin: 100;
+    padding: 50;
+    color: #ffffff;
+    text-align: center;
+    display: flexbox;
+    
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: #000000;
+    text-shadow: #ffffff 3px -3px 0px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+ul#student-list {
+    /* text-decoration: underline; */
+    
+    list-style-type: square;
+    display: block;
+    justify-content: space-evenly;
+    
+    
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: consolas, monospace;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+}
